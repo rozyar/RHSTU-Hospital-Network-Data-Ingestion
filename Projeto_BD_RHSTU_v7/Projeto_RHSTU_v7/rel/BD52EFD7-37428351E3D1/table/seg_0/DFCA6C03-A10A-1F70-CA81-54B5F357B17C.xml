@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DFCA6C03-A10A-1F70-CA81-54B5F357B17C" name="T_RHSTU_MEDICAMENTO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<generatorID>6781FCAA-FEBC-F03D-1691-5BD3950D67F6</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MEDICAMENTO" id="4281B369-26C9-DE79-D70D-9B346BD6BF21">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ O ID DO MEDICAMENTO, SENDO GERADO SEQUENCIALMENTE]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ O ID DO MEDICAMENTO, SENDO GERADO SEQUENCIALMENTE]]></commentInRDBMS>
+<generatorID>F738473F-7706-78AF-A7C4-AD5AD47E73FB</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_MEDICAMENTO" id="AD6F2A49-D7BA-916E-1268-F6EB3ED953B9">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ DADOS SOBRE O NOME DO MEDICAMENTO, SENDO OBRIGATÓRIO NA TABELA]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ DADOS SOBRE O NOME DO MEDICAMENTO, SENDO OBRIGATÓRIO NA TABELA]]></commentInRDBMS>
+<generatorID>433269A9-4CC8-C3D9-1FAC-DDD3DAD444F4</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_DETALHADA_MEDICAMENTO" id="6689582D-49AD-6F70-2990-116837D9F981">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a descrição detalhada do medicamento. Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a descrição detalhada do medicamento. Seu conteúdo é opcional.]]></commentInRDBMS>
+<generatorID>E84CF79E-312F-B843-BD5B-546FC8537DAC</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_CODIGO_BARRAS" id="9F7F70D3-81F7-4269-B673-5D06A538E50D">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o número do código de barras do medicamento, seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o número do código de barras do medicamento, seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>826230D4-6F0B-D152-05A8-6C8898414074</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_CADASTRO" id="81FC5511-54DE-5E8A-4301-158C82FB2887">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE A DATA DE CADASTRO DA TABELA, SENDO OBRIGATORIO]]></comment>
+<commentInRDBMS><![CDATA[esse atributo receberá informações sobre a data de cadastro da tabela, sendo obrigatorio
+]]></commentInRDBMS>
+<generatorID>B730C018-B9C1-14C7-4EBA-43F09236174A</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_USUARIO" id="1337D870-2206-7610-FD09-AF6B29410649">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE O NOME DO USUÁRIO QUE REALIZOU O CADASTRO NA TABELA, SENDO OBRIGATÓRIO, CONTENDO 30 CARACTERES]]></comment>
+<commentInRDBMS><![CDATA[esse atributo receberá informações sobre o nome do usuário que realizou o cadastro na tabela, sendo obrigatório, contendo 30 caracteres]]></commentInRDBMS>
+<generatorID>80001EB9-7696-D799-020D-586CBC61F31B</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4AB59E69-20B4-F134-C877-B7FE357261A3" name="PK_RHSTU_MEDICAMENTO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<generatorID>86790AE2-71A2-DA6B-F2CA-4CC2224F0442</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4281B369-26C9-DE79-D70D-9B346BD6BF21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

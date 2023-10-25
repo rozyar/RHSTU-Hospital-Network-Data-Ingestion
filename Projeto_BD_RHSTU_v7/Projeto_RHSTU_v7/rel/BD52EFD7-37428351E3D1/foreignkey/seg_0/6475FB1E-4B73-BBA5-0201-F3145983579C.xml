@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6475FB1E-4B73-BBA5-0201-F3145983579C" containerWithKeyObject="1A28EEB4-8964-7126-CA87-96C8569EED73" localFKIndex="940293D8-083A-0A39-EED7-5C54532C6865" name="FK_RHSTU_MED_CONSULTA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<generatorID>D2E39926-C7CB-40C3-CCFE-0A79C9A7B3BB</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<referredTableLongName>T_RHSTU_FUNCIONARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FA2E51DE-1DFE-DCE1-E5FA-F48DF2EA2B5F</referredTableID>
+<keyObject>476FE2CF-FD77-4124-5D87-B3E95F9DA4F3</keyObject>
+<referredKeyID>476FE2CF-FD77-4124-5D87-B3E95F9DA4F3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_FUNC</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

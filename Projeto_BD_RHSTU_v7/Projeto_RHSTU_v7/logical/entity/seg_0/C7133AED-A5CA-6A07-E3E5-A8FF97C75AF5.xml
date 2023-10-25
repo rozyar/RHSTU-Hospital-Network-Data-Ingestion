@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C7133AED-A5CA-6A07-E3E5-A8FF97C75AF5" name="T_RHSTU_MOTORISTA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-25 18:16:15 UTC</createdTime>
+<generatorID>38720F08-CC86-FC2B-4172-7B683B093607</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_FUNC" id="E774BC37-7BD2-8A0E-A87C-D09C2104C77A">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-25 18:16:15 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do funcionario. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<generatorID>3E4B70B8-16E4-27A2-628F-622DE5DAD1D9</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>B5117315-2D2A-A045-F67E-C1F0D96BDD77</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CNH" id="F9F36BE6-72F9-8AFE-ADBB-57281CEB424E">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-25 18:16:15 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o número da CNH  do motorista. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o número da CNH  do motorista. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>CEBA1D61-3B67-F950-6F0A-A6B387A895D6</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CATEGORIA_CNH" id="2BB0200D-E22A-868D-32AF-A1997F16E385">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-25 18:16:15 UTC</createdTime>
+<generatorID>8A3863B1-2D9B-922E-26BC-2F7B08510559</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_VALIDADE_CNH" id="976031A6-EFDF-BB7C-24A2-F7B9B29F6768">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-25 18:16:15 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a especialidade do médico. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a especialidade do médico. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>8936D679-402C-0B9B-5ACA-A388E060F0BE</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_CADASTRO" id="494CB533-4894-4D75-7E80-B64C550409F7">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-25 18:16:15 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE A DATA DE CADASTRO DA TABELA, SENDO OBRIGATORIO]]></comment>
+<commentInRDBMS><![CDATA[esse atributo receberá informações sobre a data de cadastro da tabela, sendo obrigatorio
+]]></commentInRDBMS>
+<generatorID>B1690561-E916-FEC0-342F-FAB97F60D5A5</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_USUARIO" id="58A28A49-06BB-954B-8FF4-2A4970FCDA85">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-25 18:16:15 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE O NOME DO USUÁRIO QUE REALIZOU O CADASTRO NA TABELA, SENDO OBRIGATÓRIO, CONTENDO 30 CARACTERES]]></comment>
+<commentInRDBMS><![CDATA[esse atributo receberá informações sobre o nome do usuário que realizou o cadastro na tabela, sendo obrigatório, contendo 30 caracteres]]></commentInRDBMS>
+<generatorID>9B53EAF0-6401-C919-3A3C-D275B888024C</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1964D625-DFA6-32A3-084A-3C8869C9575E" name="PK_RHSTU_MOTORISTA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-25 18:16:15 UTC</createdTime>
+<generatorID>8B3D46B7-E036-81F9-6B03-12E8F5BFB7C6</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E774BC37-7BD2-8A0E-A87C-D09C2104C77A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

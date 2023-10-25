@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_RHSTU_BAIRRO_LOGRADOURO" directorySegmentName="seg_0" id="8448B878-D850-9FFF-79DF-CF630FEA6E0E">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-25 18:16:15 UTC</createdTime>
+<generatorID>51439C4C-0BFA-7ED1-D588-F75E5D343FCA</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<sourcePk>7D00A26D-8A1E-7394-DCE1-A3BE8C453DA2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DD8F16CD-F413-6AA1-F048-0B0C9023F4A4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D84DE7F2-4620-7AF9-6EC2-60C29AF5D166</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

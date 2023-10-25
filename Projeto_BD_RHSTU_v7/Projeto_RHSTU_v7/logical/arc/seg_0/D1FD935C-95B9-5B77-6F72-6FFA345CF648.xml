@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="D1FD935C-95B9-5B77-6F72-6FFA345CF648" name="TRG_GENERAL_ESPEC">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-25 18:16:15 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<entity>ED8E363A-83B5-191F-8134-248048560D59</entity>
+<relations>
+<relationID>96E6C7F7-F064-41FE-2A94-E17D1CB5AED1</relationID>
+<relationID>3E4B70B8-16E4-27A2-628F-622DE5DAD1D9</relationID>
+</relations>
+</Arc>

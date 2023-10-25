@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_RHSTU_CONSULTA_PRESC_MEDICA" directorySegmentName="seg_0" id="470D6AA4-2957-9DAF-FAB2-9A2BAC73C6E7">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-25 18:16:15 UTC</createdTime>
+<generatorID>486CDDD9-2B79-C99C-1250-D7E416EEB67E</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<sourcePk>82C8D239-6028-4AD9-C80D-B5931E731101</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>83DF947A-30A0-CB45-E568-5507A4933E8B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C9683120-F843-FBF9-67F8-4C844B8BA1DD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

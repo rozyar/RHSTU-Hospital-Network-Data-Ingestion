@@ -1,0 +1,204 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA2E51DE-1DFE-DCE1-E5FA-F48DF2EA2B5F" name="T_RHSTU_FUNCIONARIO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<generatorID>5F477709-1835-BF78-2C6F-0805B23D6DDF</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_FUNC" id="74FD706E-6D05-5A32-F74A-D3BAE51408BA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do funcionario. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave primária do funcionario. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>1B9CB403-E629-65E7-585F-DA2527A66279</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_SUPERIOR" id="AF939F02-D37F-F68F-CC9A-2187FD29631A">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do SUPERIOR DO funcionario (GESTOR). Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave primária do SUPERIOR DO funcionario (GESTOR). Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>B79C1630-99EF-5E2C-E932-F48CC28D6C52</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5D553F9-8CCD-5F82-D3D2-323E2E222388" referredColumn="74FD706E-6D05-5A32-F74A-D3BAE51408BA"/>
+</associations>
+</Column>
+<Column name="NM_FUNC" id="04EA62C6-B80A-38A4-C9CF-4CA64551A41C">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome completo do funcionario.  Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome completo do funcionario.  Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>9F8A8943-EB44-C4BB-BB3B-CAF1874252E0</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>90</dataTypeSize>
+<ownDataTypeParameters>90,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_CARGO" id="C2EE8D54-1ED4-36DF-9A9E-4F320CD350DC">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-25 18:15:26 UTC</createdTime>
+<comment><![CDATA[Este atributo deve receber a  descrição do cargo do funcionário.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo deve receber a  descrição do cargo do funcionário.]]></commentInRDBMS>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>77</dataTypeSize>
+<ownDataTypeParameters>77,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_NASCIMENTO" id="BF6B904B-4F82-9EAC-D5CC-AF2FBF121459">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<comment><![CDATA[esse atributo receberá informações sobre a data de cadastro do funcionario, sendo obrigatorio
+]]></comment>
+<commentInRDBMS><![CDATA[esse atributo receberá informações sobre a data de cadastro do funcionario, sendo obrigatorio
+]]></commentInRDBMS>
+<generatorID>E411DA7C-EA93-9C0A-E62E-14FEF5DCC4BE</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VL_SALARIO" id="36225A44-9A99-B83F-3F84-2A027D4309DA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<comment><![CDATA[esse atributo receberá informações sobre o valor do salario  do funcionario, sendo obrigatorio
+]]></comment>
+<commentInRDBMS><![CDATA[esse atributo receberá informações sobre o valor do salario  do funcionario, sendo obrigatorio]]></commentInRDBMS>
+<generatorID>62F5C661-43EE-5F5E-FB79-31BBCFF803C8</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_RG" id="23CC33F8-D972-ED84-9330-9D995892DB71">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<comment><![CDATA[esse atributo receberá informações sobre o NUMERO DO RG do funcionario, sendo obrigatorio]]></comment>
+<commentInRDBMS><![CDATA[esse atributo receberá informações sobre o NUMERO DO RG do funcionario, sendo obrigatorio]]></commentInRDBMS>
+<generatorID>2F1F9DE3-EC6B-7022-A802-21001014A777</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_CPF" id="1F24E9A6-B866-F40B-301A-E7907353C748">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<comment><![CDATA[esse atributo receberá informações sobre o NUMERO DO CPF  do funcionario, sendo obrigatorio]]></comment>
+<commentInRDBMS><![CDATA[esse atributo receberá informações sobre o NUMERO DO CPF  do funcionario, sendo obrigatorio]]></commentInRDBMS>
+<generatorID>73B9C78D-FEB2-72FE-93DB-06E234642C33</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ST_FUNC" id="9FE5E132-2D54-E323-981F-9757002B20CF">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ CONTEUDO SOBRE O STATUS DO FUNCIONARIO, PODENDO SER (A)tivo e (I)nativo.]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ CONTEUDO SOBRE O STATUS DO FUNCIONARIO, PODENDO SER (A)tivo e (I)nativo.]]></commentInRDBMS>
+<generatorID>65956069-953F-0E3A-216D-6711E040EC82</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<listOfValues>
+<valueDef value="A" description="ativo"/>
+<valueDef value="I" description="inativo"/>
+</listOfValues>
+<defaultValue>A</defaultValue>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_CADASTRO" id="D2EE4245-4850-910E-1469-0AA9C7264EFE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE A DATA DE CADASTRO DA TABELA, SENDO OBRIGATORIO]]></comment>
+<commentInRDBMS><![CDATA[esse atributo receberá informações sobre a data de cadastro da tabela, sendo obrigatorio
+]]></commentInRDBMS>
+<generatorID>5A56E47E-9716-BCC4-74A9-E6CFE7B351D0</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_USUARIO" id="B845D9D6-C88B-60CE-72E2-3430F293B20A">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE O NOME DO USUÁRIO QUE REALIZOU O CADASTRO NA TABELA, SENDO OBRIGATÓRIO, CONTENDO 30 CARACTERES]]></comment>
+<commentInRDBMS><![CDATA[esse atributo receberá informações sobre o nome do usuário que realizou o cadastro na tabela, sendo obrigatório, contendo 30 caracteres]]></commentInRDBMS>
+<generatorID>84FC1DAD-46B1-5280-3200-1D8FA21A4F14</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="476FE2CF-FD77-4124-5D87-B3E95F9DA4F3" name="PK_RHSTU_FUNC">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<generatorID>42357FD1-4EB3-2628-0F66-ABEEA687B1EC</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74FD706E-6D05-5A32-F74A-D3BAE51408BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FD61FBB-EEDE-89DD-0986-1D8BE8ACA9A0" name="FK_RHSTU_FUNC_SUPERIOR">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<generatorID>D4FDC64E-3D7D-4FB1-B3EB-39D6E9E29875</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF939F02-D37F-F68F-CC9A-2187FD29631A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

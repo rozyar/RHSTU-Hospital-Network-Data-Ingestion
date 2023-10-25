@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_RHSTU_FUNC_MEDICO" directorySegmentName="seg_0" id="96E6C7F7-F064-41FE-2A94-E17D1CB5AED1">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-25 18:16:15 UTC</createdTime>
+<generatorID>08E66E4E-AEB0-AC94-CCAD-1EF180D37339</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<sourcePk>9220583F-3496-515B-B1A2-2E3E9839D038</sourcePk>
+<arc>D1FD935C-95B9-5B77-6F72-6FFA345CF648</arc>
+<dominantRole>ED8E363A-83B5-191F-8134-248048560D59</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>ED8E363A-83B5-191F-8134-248048560D59</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>C4DE553B-7F1A-57C7-61C5-8953BA3F0CDA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

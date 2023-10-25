@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="486CDDD9-2B79-C99C-1250-D7E416EEB67E" containerWithKeyObject="63607765-E411-DAF1-C9C6-97A5B648F99E" localFKIndex="7A59020D-83BF-2F5A-5C60-8A8388AB1BE0" name="FK_RHSTU_CONSULTA_PRESC_MEDICA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<generatorID>83E26DE5-CFC7-0393-6E33-ADB73D0FD6E6</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<referredTableLongName>T_RHSTU_CONSULTA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1A28EEB4-8964-7126-CA87-96C8569EED73</referredTableID>
+<keyObject>49050857-4E58-3A12-4D4F-128B7DA19C4D</keyObject>
+<referredKeyID>49050857-4E58-3A12-4D4F-128B7DA19C4D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_CONSULTA,ID_UNID_HOSPITAL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

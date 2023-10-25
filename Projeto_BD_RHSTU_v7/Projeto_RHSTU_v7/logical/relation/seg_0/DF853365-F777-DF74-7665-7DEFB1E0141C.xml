@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_RHSTU_PACIENTE_PLANO" directorySegmentName="seg_0" id="DF853365-F777-DF74-7665-7DEFB1E0141C">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-25 18:16:15 UTC</createdTime>
+<generatorID>EA02C7D7-A447-43C0-1E7E-6EB7211A2341</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<sourcePk>099CBFE3-44EC-2BD3-19A6-97BECEDC40F1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E29C924A-FC9D-74FE-7C51-77836A98F48D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A4E66578-342E-4C5D-D40B-B65C69E9D014</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

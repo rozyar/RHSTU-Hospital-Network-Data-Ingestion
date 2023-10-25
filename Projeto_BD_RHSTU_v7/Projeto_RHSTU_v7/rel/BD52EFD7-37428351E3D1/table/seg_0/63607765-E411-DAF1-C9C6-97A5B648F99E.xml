@@ -1,0 +1,204 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63607765-E411-DAF1-C9C6-97A5B648F99E" name="T_RHSTU_PRESCRICAO_MEDICA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<generatorID>D392555C-7206-A975-2B61-A8268A878BA6</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PRESCRICAO_MEDICA" id="AE65DA62-A342-3A9B-7E48-732A5B3B3DAA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária da prescrição médica. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave primária da prescrição médica. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>06450B3D-258A-9A48-AE2A-5E0D6CA8C185</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_UNID_HOSPITAL" id="E3EAE8CA-4CFC-3C65-04A9-00C77D12A9BA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária da unidade hospitalar. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório. Trata-se de uma chave primária herdada da tabela consulta.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave primária da unidade hospitalar. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório. Trata-se de uma chave primária herdada da tabela consulta.]]></commentInRDBMS>
+<generatorID>2A69C009-B838-E04E-4FF5-3DBE5E4EBA04</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="486CDDD9-2B79-C99C-1250-D7E416EEB67E" referredColumn="A78132E7-122A-91BF-D44C-B0C09FBF7A2A"/>
+</associations>
+</Column>
+<Column name="ID_CONSULTA" id="7DDDDF91-C7F3-2D73-97D5-A5727DE24270">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o número da consulta do paciente.  Seu conteúdo é obrigatório e será validado de acordo com regras de negócio. Trata-se de uma chave primária herdada da tabela consulta. ]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o número da consulta do paciente.  Seu conteúdo é obrigatório e será validado de acordo com regras de negócio. Trata-se de uma chave primária herdada da tabela consulta. ]]></commentInRDBMS>
+<generatorID>88C91FA8-2D56-602D-977A-466442B3F658</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="486CDDD9-2B79-C99C-1250-D7E416EEB67E" referredColumn="0C3036F2-73F3-564A-4DC6-DDFDB1049F15"/>
+</associations>
+</Column>
+<Column name="ID_MEDICAMENTO" id="FD4699B6-44A8-AFA2-3529-CD37B396AD12">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do medicamento. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave primária do medicamento. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>51247351-12CE-622C-F252-6F6E4EDBC3FA</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71BABFD9-E483-D080-4B5A-76E92F199C98" referredColumn="4281B369-26C9-DE79-D70D-9B346BD6BF21"/>
+</associations>
+</Column>
+<Column name="DS_POSOLOGIA" id="F7C3645B-DAD8-E0FE-BEF5-D00962C2BD70">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a descrição da posologia. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a descrição da posologia. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>BEA532CF-A4B1-B5C3-B589-A6CC5BEDF284</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_VIA" id="D20CB781-1834-35E1-2461-4E51E96EA9A0">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a descrição das vias de administração de medicamentos. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a descrição das vias de administração de medicamentos. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>CCA1487C-3E75-48FF-4219-E9538B0053A5</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_OBSERVACAO_USO" id="36E2D87C-112B-E20D-2DF0-56050DBDD1DF">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<comment><![CDATA[Esse atributo receberá a descrição das observações de uso. Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo receberá a descrição das observações de uso. Seu conteúdo é opcional.]]></commentInRDBMS>
+<generatorID>29516629-E8F4-0DF0-1A75-070FEAC6367F</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QT_MEDICAMENTO" id="776A22D6-BB64-9783-7FC0-C7194C3D4627">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá as especificações da quantidade de medicamento. Seu conteúdo é opcional]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá as especificações da quantidade de medicamento. Seu conteúdo é opcional]]></commentInRDBMS>
+<generatorID>0B9BB64A-5932-18FA-DA89-C9EAC303F72A</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,10,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_USUARIO" id="64994580-D624-0B99-488F-B190A0DA03FF">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE O NOME DO USUÁRIO QUE REALIZOU O CADASTRO NA TABELA, SENDO OBRIGATÓRIO, CONTENDO 30 CARACTERES]]></comment>
+<commentInRDBMS><![CDATA[esse atributo receberá informações sobre o nome do usuário que realizou o cadastro na tabela, sendo obrigatório, contendo 30 caracteres]]></commentInRDBMS>
+<generatorID>3DA7C96A-81D3-D70F-BD20-A9F497D49B48</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_CADASTRO" id="E84EFEA4-EE0A-F56F-C691-EB8170A2D1BB">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE A DATA DE CADASTRO DA TABELA, SENDO OBRIGATORIO]]></comment>
+<commentInRDBMS><![CDATA[esse atributo receberá informações sobre a data de cadastro da tabela, sendo obrigatorio
+]]></commentInRDBMS>
+<generatorID>1EB18344-19AB-C9AF-A2A9-4C7AA4A59421</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C21B3531-732C-CA20-6172-14D29CFC1D1C" name="PK_RHSTU_PRESCRICAO_MEDICA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<generatorID>4A73F3F3-7F8F-C401-A3E6-E44EA223D576</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE65DA62-A342-3A9B-7E48-732A5B3B3DAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A59020D-83BF-2F5A-5C60-8A8388AB1BE0" name="FK_RHSTU_CONSULTA_PRESC_MEDICA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<generatorID>83E26DE5-CFC7-0393-6E33-ADB73D0FD6E6</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DDDDF91-C7F3-2D73-97D5-A5727DE24270"/>
+<colUsage columnID="E3EAE8CA-4CFC-3C65-04A9-00C77D12A9BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46EDED20-0066-75D2-381C-5CD2D9E10645" name="FK_RHSTU_MEDICAMENTO_PM">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<generatorID>E71B8DAC-5B82-7B25-D969-CE67BC49AF03</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD4699B6-44A8-AFA2-3529-CD37B396AD12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

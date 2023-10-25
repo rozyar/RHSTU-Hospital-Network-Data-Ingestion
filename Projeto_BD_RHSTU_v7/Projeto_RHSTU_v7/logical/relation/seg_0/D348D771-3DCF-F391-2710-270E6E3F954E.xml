@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_RHSTU_PAC_PLANO_PAGTO" directorySegmentName="seg_0" id="D348D771-3DCF-F391-2710-270E6E3F954E">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-25 18:16:15 UTC</createdTime>
+<generatorID>DF1435C2-DE2C-C4AE-82BC-E9050E4F35A8</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<sourcePk>93E3720D-9EC6-8437-C6D7-E74E7114C10B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A4E66578-342E-4C5D-D40B-B65C69E9D014</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D908E8B3-D485-2827-8EF3-7E8D0C725695</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

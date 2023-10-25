@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_RHSTU_PACIENTE_TELEFONE" directorySegmentName="seg_0" id="E9841FE6-1200-D944-060B-793A4B49ECC1">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-25 18:16:15 UTC</createdTime>
+<generatorID>E1603267-6673-3C67-5C9B-8B82D6A9F980</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<sourcePk>099CBFE3-44EC-2BD3-19A6-97BECEDC40F1</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E29C924A-FC9D-74FE-7C51-77836A98F48D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>891E6B48-828C-D7D0-AFD1-C0CACE3319C3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

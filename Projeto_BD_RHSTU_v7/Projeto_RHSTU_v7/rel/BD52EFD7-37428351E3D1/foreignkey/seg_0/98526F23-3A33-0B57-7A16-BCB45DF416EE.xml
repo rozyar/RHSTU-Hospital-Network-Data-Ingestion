@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="98526F23-3A33-0B57-7A16-BCB45DF416EE" containerWithKeyObject="38720F08-CC86-FC2B-4172-7B683B093607" localFKIndex="A6570893-4946-3EC0-DFC3-123BD2058A65" name="FK_RHSTU_FUNC_MOTORISTA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:54:58 UTC</createdTime>
+<generatorID>A0A1DAC7-D07E-D758-10EE-1660EBB589B1</generatorID>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<referredTableLongName>T_RHSTU_FUNCIONARIO</referredTableLongName>
+<arc>D7750A99-45F3-8BCE-730E-33E71E579F28</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FA2E51DE-1DFE-DCE1-E5FA-F48DF2EA2B5F</referredTableID>
+<keyObject>476FE2CF-FD77-4124-5D87-B3E95F9DA4F3</keyObject>
+<referredKeyID>476FE2CF-FD77-4124-5D87-B3E95F9DA4F3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_FUNC</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>ID_FUNC</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

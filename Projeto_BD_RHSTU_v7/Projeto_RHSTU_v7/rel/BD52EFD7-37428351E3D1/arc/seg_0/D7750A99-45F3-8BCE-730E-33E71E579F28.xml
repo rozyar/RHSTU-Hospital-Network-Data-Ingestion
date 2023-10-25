@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="D7750A99-45F3-8BCE-730E-33E71E579F28" name="TRG_GENERAL_ESPEC">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-09-20 11:57:33 UTC</createdTime>
+<comment><![CDATA[Esse arco tem por objetivo controlar se o funcionario é Medico ou Motorista ou nenhum dos dois.]]></comment>
+<ownerDesignName>Projeto_RHSTU_v7</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>FA2E51DE-1DFE-DCE1-E5FA-F48DF2EA2B5F</table>
+<discriminatorColumn>74FD706E-6D05-5A32-F74A-D3BAE51408BA</discriminatorColumn>
+<fkeys>
+<fkeyID>08E66E4E-AEB0-AC94-CCAD-1EF180D37339</fkeyID>
+<fkeyID>98526F23-3A33-0B57-7A16-BCB45DF416EE</fkeyID>
+</fkeys>
+</FKArc>
