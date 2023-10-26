@@ -1,6 +1,7 @@
 const readline = require('readline');
 const express = require("express");
 const oracledb = require("oracledb");
+const { connect } = require('http2');
 const app = express();
 
 const config = {
@@ -9,6 +10,49 @@ const config = {
   connectString: "oracle.fiap.com.br:1521/orcl",
   batchErrors: true
 };
+
+
+//2- Criar uma conexão com o banco de dados e executar tarefas com uma unica conexão
+let pool;
+
+async function createPool(){
+  if(!pool){
+    pool = await oracledb.createPool(config)
+  }
+}
+
+async function createConnection(){
+  if(!pool){
+    throw new Error("O pool de conexões não foi criado. Chame createPool antes de criar uma conexão.")
+  }
+
+  const connection = await pool.getConnection();
+  return connection;
+}
+
+async function createConnectionAndExecute(){
+  await createPool();
+  let connection;
+
+  try{
+    connection = await createConnection();
+    await insertPacient(1000000, batchSize, 20, connection);
+  }catch(err){
+    console.erro2("Erro na execução segue o erro " + err);
+
+  }finally{
+    if(connection){
+      try{
+        await connection.close(30);
+      }catch(err){
+        console.log(`Erro ao fechar a conexão, segue o erro:`)
+      }
+    }
+  }
+}
+
+
+//1-Ferramentas para inserções de dados aleatorios
 
 //criar nomes aleatorios
 function getRandomFullName() {
@@ -176,16 +220,31 @@ function getRandomUsername(fullName) {
 //GERAR UM EMAIL ALEATORIO
 
 
+
+//Criar conexão para outras funções usarem a mesma e evitar de abrir varias conexões e executar as funções de forma assincrona	
+// async function createConnection() {
+//   const pool = await pool.createPool(config);
+
+//   try {
+//     const connection = await pool.getConnection();
+//     //await insertAdresses(connection);
+//   }catch(err) {
+//     console.log(err);
+//   }finally {
+//     pool.close(50);
+//   }
+// }
+
 //inserção de funcionários
-async function insertPacient(amount, batchSize, maxRetries) {
-  const pool = await oracledb.createPool(config);
+async function insertPacient(amount, batchSize, maxRetries, connect) {
 
   try {
-    const connection = await pool.getConnection();
+    const connection = connect
     const sql = `INSERT INTO T_RHSTU_PACIENTE (ID_PACIENTE, NM_PACIENTE, NR_CPF, DT_NASCIMENTO, FL_SEXO_BIOLOGICO, DS_ESCOLARIDADE, DS_ESTADO_CIVIL, NM_GRUPO_SANGUINEO, NR_ALTURA, NR_PESO, DT_CADASTRO, NM_USUARIO) VALUES (:id, :name, :cpf, TO_DATE(:dt_nasc, 'YYYY-MM-DD'), :gender, :educational, :maritage, :blood_type, :height, :weight, TO_DATE(:dt_cadastro, 'YYYY-MM-DD'), :username)`;
     
     const progressInterval = setInterval(() => {
-      console.log(`Progresso: ${progress.toFixed(2)}%`);
+      const progressBar = Array(Math.floor(progress / 10)).fill('#').join('');
+      console.log(`Progresso: ${progress.toFixed(2)}% [${progressBar}]`);
     }, 1000);
 
     let progress = 0;
@@ -255,19 +314,12 @@ async function insertPacient(amount, batchSize, maxRetries) {
 
   } catch (err) {
     console.error(err);
-  } finally {
-    if (pool) {
-      try {
-        await pool.close(30); // Feche o pool com um limite de tempo de 20 segundos
-      } catch (err) {
-        console.error("Erro ao fechar o pool de conexão:", err);
-      }
-    }
   }
 }
 
 
 //inserção de endereços
+
 
 //Deletar Tables (Paciente exemplo)
 async function deleteAllFromTable() {
@@ -312,7 +364,7 @@ const rl = readline.createInterface({
 async function askUserForAction() {
   rl.question('Escolha uma opção:\n1. Inserir funcionários\n2. Deletar todos os registros e inserir funcionários\n', async (answer) => {
     if (answer.toLowerCase() === '1') {
-      await insertPacient(1000000, batchSize, 20);
+      await createConnectionAndExecute();
       console.log('Inserção de funcionários concluída.');
     } else if (answer.toLowerCase() === '2') {
       await deleteAllFromTable();
@@ -324,7 +376,7 @@ async function askUserForAction() {
   });
 }
 
-const batchSize = 1000; // Defina o tamanho do lote aqui
+const batchSize = 5000; // Defina o tamanho do lote aqui
 
 //estudar java-rs
 
