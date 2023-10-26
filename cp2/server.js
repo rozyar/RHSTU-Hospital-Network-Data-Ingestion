@@ -1,4 +1,4 @@
-const readline = require('readline');
+const readline = require("readline");
 const express = require("express");
 const oracledb = require("oracledb");
 const app = express();
@@ -7,51 +7,50 @@ const config = {
   user: "rm551832",
   password: "030703",
   connectString: "oracle.fiap.com.br:1521/orcl",
-  batchErrors: true
+  batchErrors: true,
 };
 
-
-//2- Criar uma conexão com o banco de dados e executar tarefas com uma unica conexão
+//1- Criar uma conexão com o banco de dados e executar tarefas com uma unica conexão
 let pool;
 
-async function createPool(){
-  if(!pool){
-    pool = await oracledb.createPool(config)
+async function createPool() {
+  if (!pool) {
+    pool = await oracledb.createPool(config);
   }
 }
 
-async function createConnection(){
-  if(!pool){
-    throw new Error("O pool de conexões não foi criado. Chame createPool antes de criar uma conexão.")
+async function createConnection() {
+  if (!pool) {
+    throw new Error(
+      "O pool de conexões não foi criado. Chame createPool antes de criar uma conexão."
+    );
   }
 
   const connection = await pool.getConnection();
   return connection;
 }
 
-async function createConnectionAndExecute(){
+async function createConnectionAndExecute() {
   await createPool();
   let connection;
 
-  try{
+  try {
     connection = await createConnection();
-    await insertPacient(1000000, batchSize, 20, connection);
-  }catch(err){
+    await insertPacient(10000, batchSize, 20, connection);
+  } catch (err) {
     console.erro2("Erro na execução segue o erro " + err);
-
-  }finally{
-    if(connection){
-      try{
-        await connection.close(30);
-      }catch(err){
-        console.log(`Erro ao fechar a conexão, segue o erro:`)
+  } finally {
+    if (connection) {
+      try {
+        await connection.close();
+      } catch (err) {
+        console.log(`Erro ao fechar a conexão, segue o erro: ${err.message}}`);
       }
     }
   }
 }
 
-
-//1-Ferramentas para inserções de dados aleatorios
+//2-Ferramentas para inserções de dados aleatorios
 
 //criar nomes aleatorios
 function getRandomFullName() {
@@ -88,7 +87,7 @@ function getRandomCPF() {
   return cpfNumber;
 }
 
-console.log(typeof getRandomCPF())
+// console.log(typeof getRandomCPF())
 
 //GERAR DATA DE NASCIMENTO ALEATORIA
 function getRandomBirthDate() {
@@ -191,7 +190,7 @@ function getRandomWeight(height) {
   return weightAsFloat;
 }
 
-console.log(typeof getRandomHeight())
+// console.log(typeof getRandomHeight())
 
 //GERA UMA DATA DE CADASTRO PELO DATA DO INSERT
 function getSignUpDate() {
@@ -200,7 +199,7 @@ function getSignUpDate() {
   const month = String(today.getMonth() + 1).padStart(2, "0");
   const day = String(today.getDate()).padStart(2, "0");
   const formattedDate = `${year}-${month}-${day}`;
-  return new Date(formattedDate)
+  return new Date(formattedDate);
 }
 
 //GERA UM USUARIO ALEATORIO
@@ -218,9 +217,7 @@ function getRandomUsername(fullName) {
 
 //GERAR UM EMAIL ALEATORIO
 
-
-
-//Criar conexão para outras funções usarem a mesma e evitar de abrir varias conexões e executar as funções de forma assincrona	
+//Criar conexão para outras funções usarem a mesma e evitar de abrir varias conexões e executar as funções de forma assincrona
 // async function createConnection() {
 //   const pool = await pool.createPool(config);
 
@@ -236,14 +233,31 @@ function getRandomUsername(fullName) {
 
 //inserção de funcionários
 async function insertPacient(amount, batchSize, maxRetries, connect) {
-
   try {
-    const connection = connect
+    const connection = connect;
     const sql = `INSERT INTO T_RHSTU_PACIENTE (ID_PACIENTE, NM_PACIENTE, NR_CPF, DT_NASCIMENTO, FL_SEXO_BIOLOGICO, DS_ESCOLARIDADE, DS_ESTADO_CIVIL, NM_GRUPO_SANGUINEO, NR_ALTURA, NR_PESO, DT_CADASTRO, NM_USUARIO) VALUES (:id, :name, :cpf, TO_DATE(:dt_nasc, 'YYYY-MM-DD'), :gender, :educational, :maritage, :blood_type, :height, :weight, TO_DATE(:dt_cadastro, 'YYYY-MM-DD'), :username)`;
+
     
+    let lastProgressBar = ''
     const progressInterval = setInterval(() => {
-      const progressBar = Array(Math.floor(progress / 10)).fill('#').join('');
-      console.log(`Progresso: ${progress.toFixed(2)}% [${progressBar}]`);
+      const greenProgressBar = `\x1b[32m${Array(Math.floor(progress / 10)).fill('#').join('')}\x1b[0m`; // Barra de progresso verde
+      const progressText = `Progresso: ${progress.toFixed(2)}% [${greenProgressBar}]`;
+      const progressBarWidth = lastProgressBar.length - progressText.length;
+    
+      let lineToWrite = '\r' + progressText; // Inicializa com o texto de progresso
+    
+      if (progressBarWidth > 0) {
+        lineToWrite += ' '.repeat(progressBarWidth); // Adiciona espaços em branco para limpar a linha antiga
+      }
+    
+      process.stdout.write(lineToWrite); // Escreve a linha completa
+    
+      lastProgressBar = progressText;
+    
+      if (progress === 100) {
+        clearInterval(progressInterval);
+        console.log('Concluído!');
+      }
     }, 1000);
 
     let progress = 0;
@@ -266,8 +280,8 @@ async function insertPacient(amount, batchSize, maxRetries, connect) {
         let dtCadastro = getSignUpDate();
         let usuario = getRandomUsername(nome);
 
-        birthDate = birthDate.toISOString().split('T')[0];
-        dtCadastro = dtCadastro.toISOString().split('T')[0];
+        birthDate = birthDate.toISOString().split("T")[0];
+        dtCadastro = dtCadastro.toISOString().split("T")[0];
 
         binds.push({
           id: currentId,
@@ -292,7 +306,10 @@ async function insertPacient(amount, batchSize, maxRetries, connect) {
       // }
 
       try {
-        await connection.executeMany(sql, binds, { autoCommit: true, batchErrors: true });
+        await connection.executeMany(sql, binds, {
+          autoCommit: true,
+          batchErrors: true,
+        });
         successfulInserts += binds.length;
         progress = (successfulInserts / amount) * 100;
       } catch (err) {
@@ -308,17 +325,14 @@ async function insertPacient(amount, batchSize, maxRetries, connect) {
       }
     }
 
-    console.log("Inserções Completas xD");
+    console.log("\nInserções Completas xD");
     clearInterval(progressInterval);
-
   } catch (err) {
     console.error(err);
   }
 }
 
-
 //inserção de endereços
-
 
 //Deletar Tables (Paciente exemplo)
 async function deleteAllFromTable() {
@@ -328,7 +342,7 @@ async function deleteAllFromTable() {
     try {
       connection = await oracledb.getConnection(config);
 
-      const sql = "DELETE FROM T_RHSTU_PACIENTE";
+      const sql = "TRUNCATE TABLE T_RHSTU_PACIENTE";
 
       await connection.execute(sql, [], { autoCommit: true });
 
@@ -350,35 +364,35 @@ async function deleteAllFromTable() {
   });
 }
 
-
 app.listen(3000, () => console.log("Servidor rodando na porta 3000"));
-
 
 const rl = readline.createInterface({
   input: process.stdin,
-  output: process.stdout
+  output: process.stdout,
 });
 
 // Função para perguntar ao usuário se deseja inserir funcionários
 async function askUserForAction() {
-  rl.question('Escolha uma opção:\n1. Inserir funcionários\n2. Deletar todos os registros e inserir funcionários\n', async (answer) => {
-    if (answer.toLowerCase() === '1') {
-      await createConnectionAndExecute();
-      console.log('Inserção de funcionários concluída.');
-    } else if (answer.toLowerCase() === '2') {
-      await deleteAllFromTable();
-      console.log('Deleção de registros');
-    } else {
-      console.log('Opção inválida. Operação cancelada.');
+  rl.question(
+    "Escolha uma opção:\n1. Inserir funcionários\n2. Deletar todos os registros e inserir funcionários\n",
+    async (answer) => {
+      if (answer.toLowerCase() === "1") {
+        await createConnectionAndExecute();
+        console.log("Inserções concluída.");
+      } else if (answer.toLowerCase() === "2") {
+        await deleteAllFromTable();
+        console.log("Deleção de registros");
+      } else {
+        console.log("Opção inválida. Operação cancelada.");
+      }
+      rl.close();
     }
-    rl.close();
-  });
+  );
 }
 
-const batchSize = 5000; // Defina o tamanho do lote aqui
+const batchSize = 1000; // Defina o tamanho do lote aqui
 
 //estudar java-rs
 
 // deleteAllFromTable()
-askUserForAction()
-
+askUserForAction();
