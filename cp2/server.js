@@ -1,7 +1,6 @@
 const readline = require('readline');
 const express = require("express");
 const oracledb = require("oracledb");
-const { connect } = require('http2');
 const app = express();
 
 const config = {
