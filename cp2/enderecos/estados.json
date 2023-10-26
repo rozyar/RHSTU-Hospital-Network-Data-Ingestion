@@ -1,193 +1,2292 @@
 {
-    "data": [
+  "data": [
+    {
+      "Id": 1,
+      "CodigoUf": 12,
+      "Nome": "Acre",
+      "Uf": "AC",
+      "Regiao": 1,
+      "Cidades": [
+        {
+          "Id": 53,
+          "Codigo": 1200013,
+          "Nome": "Acrelândia",
+          "Uf": "AC"
+        },
+        {
+          "Id": 54,
+          "Codigo": 1200054,
+          "Nome": "Assis Brasil",
+          "Uf": "AC"
+        },
+        {
+          "Id": 55,
+          "Codigo": 1200104,
+          "Nome": "Brasiléia",
+          "Uf": "AC"
+        },
+        {
+          "Id": 56,
+          "Codigo": 1200138,
+          "Nome": "Bujari",
+          "Uf": "AC"
+        },
+        {
+          "Id": 57,
+          "Codigo": 1200179,
+          "Nome": "Capixaba",
+          "Uf": "AC"
+        },
+        {
+          "Id": 58,
+          "Codigo": 1200203,
+          "Nome": "Cruzeiro do Sul",
+          "Uf": "AC"
+        },
+        {
+          "Id": 59,
+          "Codigo": 1200252,
+          "Nome": "Epitaciolândia",
+          "Uf": "AC"
+        },
+        {
+          "Id": 60,
+          "Codigo": 1200302,
+          "Nome": "Feijó",
+          "Uf": "AC"
+        },
+        {
+          "Id": 61,
+          "Codigo": 1200328,
+          "Nome": "Jordão",
+          "Uf": "AC"
+        },
+        {
+          "Id": 62,
+          "Codigo": 1200336,
+          "Nome": "Mâncio Lima",
+          "Uf": "AC"
+        },
+        {
+          "Id": 63,
+          "Codigo": 1200344,
+          "Nome": "Manoel Urbano",
+          "Uf": "AC"
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "CodigoUf": 27,
+      "Nome": "Alagoas",
+      "Uf": "AL",
+      "Regiao": 2,
+      "Cidades": [
+        {
+          "Id": 1651,
+          "Codigo": 2700102,
+          "Nome": "Água Branca",
+          "Uf": "AL"
+        },
+        {
+          "Id": 1652,
+          "Codigo": 2700201,
+          "Nome": "Anadia",
+          "Uf": "AL"
+        },
+        {
+          "Id": 1653,
+          "Codigo": 2700300,
+          "Nome": "Arapiraca",
+          "Uf": "AL"
+        },
+        {
+          "Id": 1654,
+          "Codigo": 2700409,
+          "Nome": "Atalaia",
+          "Uf": "AL"
+        },
+        {
+          "Id": 1655,
+          "Codigo": 2700508,
+          "Nome": "Barra de Santo Antônio",
+          "Uf": "AL"
+        },
+        {
+          "Id": 1656,
+          "Codigo": 2700607,
+          "Nome": "Barra de São Miguel",
+          "Uf": "AL"
+        },
+        {
+          "Id": 1657,
+          "Codigo": 2700706,
+          "Nome": "Batalha",
+          "Uf": "AL"
+        },
+        {
+          "Id": 1658,
+          "Codigo": 2700805,
+          "Nome": "Belém",
+          "Uf": "AL"
+        },
+        {
+          "Id": 1659,
+          "Codigo": 2700904,
+          "Nome": "Belo Monte",
+          "Uf": "AL"
+        },
+        {
+          "Id": 1660,
+          "Codigo": 2701001,
+          "Nome": "Boca da Mata",
+          "Uf": "AL"
+        },
+        {
+          "Id": 1661,
+          "Codigo": 2701100,
+          "Nome": "Branquinha",
+          "Uf": "AL"
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "CodigoUf": 16,
+      "Nome": "Amapá",
+      "Uf": "AP",
+      "Regiao": 1,
+      "Cidades": [
+        {
+          "Id": 296,
+          "Codigo": 1600055,
+          "Nome": "Serra do Navio",
+          "Uf": "AP"
+        },
+        {
+          "Id": 297,
+          "Codigo": 1600105,
+          "Nome": "Amapá",
+          "Uf": "AP"
+        },
+        {
+          "Id": 298,
+          "Codigo": 1600154,
+          "Nome": "Pedra Branca do Amapari",
+          "Uf": "AP"
+        },
+        {
+          "Id": 299,
+          "Codigo": 1600204,
+          "Nome": "Calçoene",
+          "Uf": "AP"
+        },
+        {
+          "Id": 300,
+          "Codigo": 1600212,
+          "Nome": "Cutias",
+          "Uf": "AP"
+        },
+        {
+          "Id": 301,
+          "Codigo": 1600238,
+          "Nome": "Ferreira Gomes",
+          "Uf": "AP"
+        },
+        {
+          "Id": 302,
+          "Codigo": 1600253,
+          "Nome": "Itaubal",
+          "Uf": "AP"
+        },
+        {
+          "Id": 303,
+          "Codigo": 1600279,
+          "Nome": "Laranjal do Jari",
+          "Uf": "AP"
+        },
+        {
+          "Id": 304,
+          "Codigo": 1600303,
+          "Nome": "Macapá",
+          "Uf": "AP"
+        },
+        {
+          "Id": 305,
+          "Codigo": 1600402,
+          "Nome": "Mazagão",
+          "Uf": "AP"
+        },
+        {
+          "Id": 306,
+          "Codigo": 1600501,
+          "Nome": "Oiapoque",
+          "Uf": "AP"
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "CodigoUf": 13,
+      "Nome": "Amazonas",
+      "Uf": "AM",
+      "Regiao": 1,
+      "Cidades": [
+        {
+          "Id": 75,
+          "Codigo": 1300029,
+          "Nome": "Alvarães",
+          "Uf": "AM"
+        },
+        {
+          "Id": 76,
+          "Codigo": 1300060,
+          "Nome": "Amaturá",
+          "Uf": "AM"
+        },
+        {
+          "Id": 77,
+          "Codigo": 1300086,
+          "Nome": "Anamã",
+          "Uf": "AM"
+        },
+        {
+          "Id": 78,
+          "Codigo": 1300102,
+          "Nome": "Anori",
+          "Uf": "AM"
+        },
+        {
+          "Id": 79,
+          "Codigo": 1300144,
+          "Nome": "Apuí",
+          "Uf": "AM"
+        },
+        {
+          "Id": 80,
+          "Codigo": 1300201,
+          "Nome": "Atalaia do Norte",
+          "Uf": "AM"
+        },
+        {
+          "Id": 81,
+          "Codigo": 1300300,
+          "Nome": "Autazes",
+          "Uf": "AM"
+        },
+        {
+          "Id": 82,
+          "Codigo": 1300409,
+          "Nome": "Barcelos",
+          "Uf": "AM"
+        },
+        {
+          "Id": 83,
+          "Codigo": 1300508,
+          "Nome": "Barreirinha",
+          "Uf": "AM"
+        },
+        {
+          "Id": 84,
+          "Codigo": 1300607,
+          "Nome": "Benjamin Constant",
+          "Uf": "AM"
+        },
+        {
+          "Id": 85,
+          "Codigo": 1300631,
+          "Nome": "Beruri",
+          "Uf": "AM"
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "CodigoUf": 29,
+      "Nome": "Bahia",
+      "Uf": "BA",
+      "Regiao": 2,
+      "Cidades": [
+        {
+          "Id": 1828,
+          "Codigo": 2900108,
+          "Nome": "Abaíra",
+          "Uf": "BA"
+        },
+        {
+          "Id": 1829,
+          "Codigo": 2900207,
+          "Nome": "Abaré",
+          "Uf": "BA"
+        },
+        {
+          "Id": 1830,
+          "Codigo": 2900306,
+          "Nome": "Acajutiba",
+          "Uf": "BA"
+        },
+        {
+          "Id": 1831,
+          "Codigo": 2900355,
+          "Nome": "Adustina",
+          "Uf": "BA"
+        },
+        {
+          "Id": 1832,
+          "Codigo": 2900405,
+          "Nome": "Água Fria",
+          "Uf": "BA"
+        },
+        {
+          "Id": 1833,
+          "Codigo": 2900504,
+          "Nome": "Érico Cardoso",
+          "Uf": "BA"
+        },
+        {
+          "Id": 1834,
+          "Codigo": 2900603,
+          "Nome": "Aiquara",
+          "Uf": "BA"
+        },
+        {
+          "Id": 1835,
+          "Codigo": 2900702,
+          "Nome": "Alagoinhas",
+          "Uf": "BA"
+        },
+        {
+          "Id": 1836,
+          "Codigo": 2900801,
+          "Nome": "Alcobaça",
+          "Uf": "BA"
+        },
+        {
+          "Id": 1837,
+          "Codigo": 2900900,
+          "Nome": "Almadina",
+          "Uf": "BA"
+        },
+        {
+          "Id": 1838,
+          "Codigo": 2901007,
+          "Nome": "Amargosa",
+          "Uf": "BA"
+        },
+        {
+          "Id": 1828,
+          "Codigo": 2900108,
+          "Nome": "Abaíra",
+          "Uf": "BA"
+        },
+        {
+          "Id": 1829,
+          "Codigo": 2900207,
+          "Nome": "Abaré",
+          "Uf": "BA"
+        },
+        {
+          "Id": 1830,
+          "Codigo": 2900306,
+          "Nome": "Acajutiba",
+          "Uf": "BA"
+        },
+        {
+          "Id": 1831,
+          "Codigo": 2900355,
+          "Nome": "Adustina",
+          "Uf": "BA"
+        },
+        {
+          "Id": 1832,
+          "Codigo": 2900405,
+          "Nome": "Água Fria",
+          "Uf": "BA"
+        },
+        {
+          "Id": 1833,
+          "Codigo": 2900504,
+          "Nome": "Érico Cardoso",
+          "Uf": "BA"
+        },
+        {
+          "Id": 1834,
+          "Codigo": 2900603,
+          "Nome": "Aiquara",
+          "Uf": "BA"
+        },
+        {
+          "Id": 1835,
+          "Codigo": 2900702,
+          "Nome": "Alagoinhas",
+          "Uf": "BA"
+        },
+        {
+          "Id": 1836,
+          "Codigo": 2900801,
+          "Nome": "Alcobaça",
+          "Uf": "BA"
+        },
+        {
+          "Id": 1837,
+          "Codigo": 2900900,
+          "Nome": "Almadina",
+          "Uf": "BA"
+        },
+        {
+          "Id": 1838,
+          "Codigo": 2901007,
+          "Nome": "Amargosa",
+          "Uf": "BA"
+        }
+      ]
+    },
+    {
+      "Id": 6,
+      "CodigoUf": 23,
+      "Nome": "Ceará",
+      "Uf": "CE",
+      "Regiao": 2,
+      "Cidades": [
+        {
+          "Id": 892,
+          "Codigo": 2300101,
+          "Nome": "Abaiara",
+          "Uf": "CE"
+        },
+        {
+          "Id": 893,
+          "Codigo": 2300150,
+          "Nome": "Acarape",
+          "Uf": "CE"
+        },
+        {
+          "Id": 894,
+          "Codigo": 2300200,
+          "Nome": "Acaraú",
+          "Uf": "CE"
+        },
+        {
+          "Id": 895,
+          "Codigo": 2300309,
+          "Nome": "Acopiara",
+          "Uf": "CE"
+        },
+        {
+          "Id": 896,
+          "Codigo": 2300408,
+          "Nome": "Aiuaba",
+          "Uf": "CE"
+        },
+        {
+          "Id": 897,
+          "Codigo": 2300507,
+          "Nome": "Alcântaras",
+          "Uf": "CE"
+        },
+        {
+          "Id": 898,
+          "Codigo": 2300606,
+          "Nome": "Altaneira",
+          "Uf": "CE"
+        },
+        {
+          "Id": 899,
+          "Codigo": 2300705,
+          "Nome": "Alto Santo",
+          "Uf": "CE"
+        },
+        {
+          "Id": 900,
+          "Codigo": 2300754,
+          "Nome": "Amontada",
+          "Uf": "CE"
+        },
+        {
+          "Id": 901,
+          "Codigo": 2300804,
+          "Nome": "Antonina do Norte",
+          "Uf": "CE"
+        },
+        {
+          "Id": 902,
+          "Codigo": 2300903,
+          "Nome": "Apuiarés",
+          "Uf": "CE"
+        }
+      ]
+    },
+    {
+      "Id": 7,
+      "CodigoUf": 53,
+      "Nome": "Distrito Federal",
+      "Uf": "DF",
+      "Regiao": 5,
+      "Cidades": [
+        {
+          "Id": 5570,
+          "Codigo": 5300108,
+          "Nome": "Brasília",
+          "Uf": "DF"
+        }
+      ]
+    },
+    {
+      "Id": 8,
+      "CodigoUf": 32,
+      "Nome": "Espírito Santo",
+      "Uf": "ES",
+      "Regiao": 3,
+      "Cidades": [
+        {
+          "Id": 3098,
+          "Codigo": 3200102,
+          "Nome": "Afonso Cláudio",
+          "Uf": "ES"
+        },
+        {
+          "Id": 3099,
+          "Codigo": 3200136,
+          "Nome": "Águia Branca",
+          "Uf": "ES"
+        },
+        {
+          "Id": 3100,
+          "Codigo": 3200169,
+          "Nome": "Água Doce do Norte",
+          "Uf": "ES"
+        },
+        {
+          "Id": 3101,
+          "Codigo": 3200201,
+          "Nome": "Alegre",
+          "Uf": "ES"
+        },
+        {
+          "Id": 3102,
+          "Codigo": 3200300,
+          "Nome": "Alfredo Chaves",
+          "Uf": "ES"
+        },
+        {
+          "Id": 3103,
+          "Codigo": 3200359,
+          "Nome": "Alto Rio Novo",
+          "Uf": "ES"
+        },
+        {
+          "Id": 3104,
+          "Codigo": 3200409,
+          "Nome": "Anchieta",
+          "Uf": "ES"
+        },
+        {
+          "Id": 3105,
+          "Codigo": 3200508,
+          "Nome": "Apiacá",
+          "Uf": "ES"
+        },
+        {
+          "Id": 3106,
+          "Codigo": 3200607,
+          "Nome": "Aracruz",
+          "Uf": "ES"
+        },
+        {
+          "Id": 3107,
+          "Codigo": 3200706,
+          "Nome": "Atilio Vivacqua",
+          "Uf": "ES"
+        },
+        {
+          "Id": 3108,
+          "Codigo": 3200805,
+          "Nome": "Baixo Guandu",
+          "Uf": "ES"
+        }
+      ]
+    },
+    {
+      "Id": 9,
+      "CodigoUf": 52,
+      "Nome": "Goiás",
+      "Uf": "GO",
+      "Regiao": 5,
+      "Cidades": [
+        {
+          "Id": 5324,
+          "Codigo": 5200050,
+          "Nome": "Abadia de Goiás",
+          "Uf": "GO"
+        },
+        {
+          "Id": 5325,
+          "Codigo": 5200100,
+          "Nome": "Abadiânia",
+          "Uf": "GO"
+        },
+        {
+          "Id": 5326,
+          "Codigo": 5200134,
+          "Nome": "Acreúna",
+          "Uf": "GO"
+        },
+        {
+          "Id": 5327,
+          "Codigo": 5200159,
+          "Nome": "Adelândia",
+          "Uf": "GO"
+        },
+        {
+          "Id": 5328,
+          "Codigo": 5200175,
+          "Nome": "Água Fria de Goiás",
+          "Uf": "GO"
+        },
+        {
+          "Id": 5329,
+          "Codigo": 5200209,
+          "Nome": "Água Limpa",
+          "Uf": "GO"
+        },
+        {
+          "Id": 5330,
+          "Codigo": 5200258,
+          "Nome": "Águas Lindas de Goiás",
+          "Uf": "GO"
+        },
+        {
+          "Id": 5331,
+          "Codigo": 5200308,
+          "Nome": "Alexânia",
+          "Uf": "GO"
+        },
+        {
+          "Id": 5332,
+          "Codigo": 5200506,
+          "Nome": "Aloândia",
+          "Uf": "GO"
+        },
+        {
+          "Id": 5333,
+          "Codigo": 5200555,
+          "Nome": "Alto Horizonte",
+          "Uf": "GO"
+        },
+        {
+          "Id": 5334,
+          "Codigo": 5200605,
+          "Nome": "Alto Paraíso de Goiás",
+          "Uf": "GO"
+        }
+      ]
+    },
+    {
+      "Id": 10,
+      "CodigoUf": 21,
+      "Nome": "Maranhão",
+      "Uf": "MA",
+      "Regiao": 2,
+      "Cidades": [
+        {
+          "Id": 451,
+          "Codigo": 2100055,
+          "Nome": "Açailândia",
+          "Uf": "MA"
+        },
+        {
+          "Id": 452,
+          "Codigo": 2100105,
+          "Nome": "Afonso Cunha",
+          "Uf": "MA"
+        },
+        {
+          "Id": 453,
+          "Codigo": 2100154,
+          "Nome": "Água Doce do Maranhão",
+          "Uf": "MA"
+        },
+        {
+          "Id": 454,
+          "Codigo": 2100204,
+          "Nome": "Alcântara",
+          "Uf": "MA"
+        },
+        {
+          "Id": 455,
+          "Codigo": 2100303,
+          "Nome": "Aldeias Altas",
+          "Uf": "MA"
+        },
+        {
+          "Id": 456,
+          "Codigo": 2100402,
+          "Nome": "Altamira do Maranhão",
+          "Uf": "MA"
+        },
+        {
+          "Id": 457,
+          "Codigo": 2100436,
+          "Nome": "Alto Alegre do Maranhão",
+          "Uf": "MA"
+        },
+        {
+          "Id": 458,
+          "Codigo": 2100477,
+          "Nome": "Alto Alegre do Pindaré",
+          "Uf": "MA"
+        },
+        {
+          "Id": 459,
+          "Codigo": 2100501,
+          "Nome": "Alto Parnaíba",
+          "Uf": "MA"
+        },
+        {
+          "Id": 460,
+          "Codigo": 2100550,
+          "Nome": "Amapá do Maranhão",
+          "Uf": "MA"
+        },
+        {
+          "Id": 461,
+          "Codigo": 2100600,
+          "Nome": "Amarante do Maranhão",
+          "Uf": "MA"
+        }
+      ]
+    },
+    {
+      "Id": 11,
+      "CodigoUf": 51,
+      "Nome": "Mato Grosso",
+      "Uf": "MT",
+      "Regiao": 5,
+      "Cidades": [
+        {
+          "Id": 5183,
+          "Codigo": 5100102,
+          "Nome": "Acorizal",
+          "Uf": "MT"
+        },
+        {
+          "Id": 5184,
+          "Codigo": 5100201,
+          "Nome": "Água Boa",
+          "Uf": "MT"
+        },
+        {
+          "Id": 5185,
+          "Codigo": 5100250,
+          "Nome": "Alta Floresta",
+          "Uf": "MT"
+        },
+        {
+          "Id": 5186,
+          "Codigo": 5100300,
+          "Nome": "Alto Araguaia",
+          "Uf": "MT"
+        },
+        {
+          "Id": 5187,
+          "Codigo": 5100359,
+          "Nome": "Alto Boa Vista",
+          "Uf": "MT"
+        },
+        {
+          "Id": 5188,
+          "Codigo": 5100409,
+          "Nome": "Alto Garças",
+          "Uf": "MT"
+        },
+        {
+          "Id": 5189,
+          "Codigo": 5100508,
+          "Nome": "Alto Paraguai",
+          "Uf": "MT"
+        },
+        {
+          "Id": 5190,
+          "Codigo": 5100607,
+          "Nome": "Alto Taquari",
+          "Uf": "MT"
+        },
+        {
+          "Id": 5191,
+          "Codigo": 5100805,
+          "Nome": "Apiacás",
+          "Uf": "MT"
+        },
+        {
+          "Id": 5192,
+          "Codigo": 5101001,
+          "Nome": "Araguaiana",
+          "Uf": "MT"
+        },
+        {
+          "Id": 5193,
+          "Codigo": 5101209,
+          "Nome": "Araguainha",
+          "Uf": "MT"
+        }
+      ]
+    },
+    {
+      "Id": 12,
+      "CodigoUf": 50,
+      "Nome": "Mato Grosso do Sul",
+      "Uf": "MS",
+      "Regiao": 5,
+      "Cidades": [
+        {
+          "Id": 5104,
+          "Codigo": 5000203,
+          "Nome": "Água Clara",
+          "Uf": "MS"
+        },
+        {
+          "Id": 5105,
+          "Codigo": 5000252,
+          "Nome": "Alcinópolis",
+          "Uf": "MS"
+        },
+        {
+          "Id": 5106,
+          "Codigo": 5000609,
+          "Nome": "Amambai",
+          "Uf": "MS"
+        },
+        {
+          "Id": 5107,
+          "Codigo": 5000708,
+          "Nome": "Anastácio",
+          "Uf": "MS"
+        },
+        {
+          "Id": 5108,
+          "Codigo": 5000807,
+          "Nome": "Anaurilândia",
+          "Uf": "MS"
+        },
+        {
+          "Id": 5109,
+          "Codigo": 5000856,
+          "Nome": "Angélica",
+          "Uf": "MS"
+        },
+        {
+          "Id": 5110,
+          "Codigo": 5000906,
+          "Nome": "Antônio João",
+          "Uf": "MS"
+        },
+        {
+          "Id": 5111,
+          "Codigo": 5001003,
+          "Nome": "Aparecida do Taboado",
+          "Uf": "MS"
+        },
+        {
+          "Id": 5112,
+          "Codigo": 5001102,
+          "Nome": "Aquidauana",
+          "Uf": "MS"
+        },
+        {
+          "Id": 5113,
+          "Codigo": 5001243,
+          "Nome": "Aral Moreira",
+          "Uf": "MS"
+        },
+        {
+          "Id": 5114,
+          "Codigo": 5001508,
+          "Nome": "Bandeirantes",
+          "Uf": "MS"
+        }
+      ]
+    },
+    {
+      "Id": 13,
+      "CodigoUf": 31,
+      "Nome": "Minas Gerais",
+      "Uf": "MG",
+      "Regiao": 3,
+      "Cidades": [
+        {
+          "Id": 2245,
+          "Codigo": 3100104,
+          "Nome": "Abadia dos Dourados",
+          "Uf": "MG"
+        },
+        {
+          "Id": 2246,
+          "Codigo": 3100203,
+          "Nome": "Abaeté",
+          "Uf": "MG"
+        },
+        {
+          "Id": 2247,
+          "Codigo": 3100302,
+          "Nome": "Abre Campo",
+          "Uf": "MG"
+        },
+        {
+          "Id": 2248,
+          "Codigo": 3100401,
+          "Nome": "Acaiaca",
+          "Uf": "MG"
+        },
+        {
+          "Id": 2249,
+          "Codigo": 3100500,
+          "Nome": "Açucena",
+          "Uf": "MG"
+        },
+        {
+          "Id": 2250,
+          "Codigo": 3100609,
+          "Nome": "Água Boa",
+          "Uf": "MG"
+        },
+        {
+          "Id": 2251,
+          "Codigo": 3100708,
+          "Nome": "Água Comprida",
+          "Uf": "MG"
+        },
+        {
+          "Id": 2252,
+          "Codigo": 3100807,
+          "Nome": "Aguanil",
+          "Uf": "MG"
+        },
+        {
+          "Id": 2253,
+          "Codigo": 3100906,
+          "Nome": "Águas Formosas",
+          "Uf": "MG"
+        },
+        {
+          "Id": 2254,
+          "Codigo": 3101003,
+          "Nome": "Águas Vermelhas",
+          "Uf": "MG"
+        },
+        {
+          "Id": 2255,
+          "Codigo": 3101102,
+          "Nome": "Aimorés",
+          "Uf": "MG"
+        }
+      ]
+    },
+    {
+      "Id": 14,
+      "CodigoUf": 15,
+      "Nome": "Pará",
+      "Uf": "PA",
+      "Regiao": 1,
+      "Cidades": [
+        {
+          "Id": 153,
+          "Codigo": 1500131,
+          "Nome": "Abel Figueiredo",
+          "Uf": "PA"
+        },
+        {
+          "Id": 154,
+          "Codigo": 1500206,
+          "Nome": "Acará",
+          "Uf": "PA"
+        },
+        {
+          "Id": 155,
+          "Codigo": 1500305,
+          "Nome": "Afuá",
+          "Uf": "PA"
+        },
+        {
+          "Id": 156,
+          "Codigo": 1500347,
+          "Nome": "Água Azul do Norte",
+          "Uf": "PA"
+        },
+        {
+          "Id": 157,
+          "Codigo": 1500404,
+          "Nome": "Alenquer",
+          "Uf": "PA"
+        },
+        {
+          "Id": 158,
+          "Codigo": 1500503,
+          "Nome": "Almeirim",
+          "Uf": "PA"
+        },
+        {
+          "Id": 159,
+          "Codigo": 1500602,
+          "Nome": "Altamira",
+          "Uf": "PA"
+        },
+        {
+          "Id": 160,
+          "Codigo": 1500701,
+          "Nome": "Anajás",
+          "Uf": "PA"
+        },
+        {
+          "Id": 161,
+          "Codigo": 1500800,
+          "Nome": "Ananindeua",
+          "Uf": "PA"
+        },
+        {
+          "Id": 162,
+          "Codigo": 1500859,
+          "Nome": "Anapu",
+          "Uf": "PA"
+        },
+        {
+          "Id": 163,
+          "Codigo": 1500909,
+          "Nome": "Augusto Corrêa",
+          "Uf": "PA"
+        }
+      ]
+    },
+    {
+      "Id": 15,
+      "CodigoUf": 25,
+      "Nome": "Paraíba",
+      "Uf": "PB",
+      "Regiao": 2,
+      "Cidades": [
+        {
+          "Id": 1243,
+          "Codigo": 2500106,
+          "Nome": "Água Branca",
+          "Uf": "PB"
+        },
+        {
+          "Id": 1244,
+          "Codigo": 2500205,
+          "Nome": "Aguiar",
+          "Uf": "PB"
+        },
+        {
+          "Id": 1245,
+          "Codigo": 2500304,
+          "Nome": "Alagoa Grande",
+          "Uf": "PB"
+        },
+        {
+          "Id": 1246,
+          "Codigo": 2500403,
+          "Nome": "Alagoa Nova",
+          "Uf": "PB"
+        },
+        {
+          "Id": 1247,
+          "Codigo": 2500502,
+          "Nome": "Alagoinha",
+          "Uf": "PB"
+        },
+        {
+          "Id": 1248,
+          "Codigo": 2500536,
+          "Nome": "Alcantil",
+          "Uf": "PB"
+        },
+        {
+          "Id": 1249,
+          "Codigo": 2500577,
+          "Nome": "Algodão de Jandaíra",
+          "Uf": "PB"
+        },
+        {
+          "Id": 1250,
+          "Codigo": 2500601,
+          "Nome": "Alhandra",
+          "Uf": "PB"
+        },
+        {
+          "Id": 1251,
+          "Codigo": 2500700,
+          "Nome": "São João do Rio do Peixe",
+          "Uf": "PB"
+        },
+        {
+          "Id": 1252,
+          "Codigo": 2500734,
+          "Nome": "Amparo",
+          "Uf": "PB"
+        },
+        {
+          "Id": 1253,
+          "Codigo": 2500775,
+          "Nome": "Aparecida",
+          "Uf": "PB"
+        }
+      ]
+    },
+    {
+      "Id": 16,
+      "CodigoUf": 41,
+      "Nome": "Paraná",
+      "Uf": "PR",
+      "Regiao": 4,
+      "Cidades": [
+        {
+          "Id": 3913,
+          "Codigo": 4100103,
+          "Nome": "Abatiá",
+          "Uf": "PR"
+        },
+        {
+          "Id": 3914,
+          "Codigo": 4100202,
+          "Nome": "Adrianópolis",
+          "Uf": "PR"
+        },
+        {
+          "Id": 3915,
+          "Codigo": 4100301,
+          "Nome": "Agudos do Sul",
+          "Uf": "PR"
+        },
+        {
+          "Id": 3916,
+          "Codigo": 4100400,
+          "Nome": "Almirante Tamandaré",
+          "Uf": "PR"
+        },
+        {
+          "Id": 3917,
+          "Codigo": 4100459,
+          "Nome": "Altamira do Paraná",
+          "Uf": "PR"
+        },
+        {
+          "Id": 3918,
+          "Codigo": 4100509,
+          "Nome": "Altônia",
+          "Uf": "PR"
+        },
+        {
+          "Id": 3919,
+          "Codigo": 4100608,
+          "Nome": "Alto Paraná",
+          "Uf": "PR"
+        },
+        {
+          "Id": 3920,
+          "Codigo": 4100707,
+          "Nome": "Alto Piquiri",
+          "Uf": "PR"
+        },
+        {
+          "Id": 3921,
+          "Codigo": 4100806,
+          "Nome": "Alvorada do Sul",
+          "Uf": "PR"
+        },
+        {
+          "Id": 3922,
+          "Codigo": 4100905,
+          "Nome": "Amaporã",
+          "Uf": "PR"
+        },
+        {
+          "Id": 3923,
+          "Codigo": 4101002,
+          "Nome": "Ampére",
+          "Uf": "PR"
+        }
+      ]
+    },
+    {
+      "Id": 17,
+      "CodigoUf": 26,
+      "Nome": "Pernambuco",
+      "Uf": "PE",
+      "Regiao": 2,
+      "Cidades": [
+        {
+          "Id": 1466,
+          "Codigo": 2600054,
+          "Nome": "Abreu e Lima",
+          "Uf": "PE"
+        },
+        {
+          "Id": 1467,
+          "Codigo": 2600104,
+          "Nome": "Afogados da Ingazeira",
+          "Uf": "PE"
+        },
+        {
+          "Id": 1468,
+          "Codigo": 2600203,
+          "Nome": "Afrânio",
+          "Uf": "PE"
+        },
+        {
+          "Id": 1469,
+          "Codigo": 2600302,
+          "Nome": "Agrestina",
+          "Uf": "PE"
+        },
+        {
+          "Id": 1470,
+          "Codigo": 2600401,
+          "Nome": "Água Preta",
+          "Uf": "PE"
+        },
+        {
+          "Id": 1471,
+          "Codigo": 2600500,
+          "Nome": "Águas Belas",
+          "Uf": "PE"
+        },
+        {
+          "Id": 1472,
+          "Codigo": 2600609,
+          "Nome": "Alagoinha",
+          "Uf": "PE"
+        },
+        {
+          "Id": 1473,
+          "Codigo": 2600708,
+          "Nome": "Aliança",
+          "Uf": "PE"
+        },
+        {
+          "Id": 1474,
+          "Codigo": 2600807,
+          "Nome": "Altinho",
+          "Uf": "PE"
+        },
+        {
+          "Id": 1475,
+          "Codigo": 2600906,
+          "Nome": "Amaraji",
+          "Uf": "PE"
+        },
+        {
+          "Id": 1476,
+          "Codigo": 2601003,
+          "Nome": "Angelim",
+          "Uf": "PE"
+        },
+        {
+          "Id": 1466,
+          "Codigo": 2600054,
+          "Nome": "Abreu e Lima",
+          "Uf": "PE"
+        },
+        {
+          "Id": 1467,
+          "Codigo": 2600104,
+          "Nome": "Afogados da Ingazeira",
+          "Uf": "PE"
+        },
+        {
+          "Id": 1468,
+          "Codigo": 2600203,
+          "Nome": "Afrânio",
+          "Uf": "PE"
+        },
+        {
+          "Id": 1469,
+          "Codigo": 2600302,
+          "Nome": "Agrestina",
+          "Uf": "PE"
+        },
+        {
+          "Id": 1470,
+          "Codigo": 2600401,
+          "Nome": "Água Preta",
+          "Uf": "PE"
+        },
+        {
+          "Id": 1471,
+          "Codigo": 2600500,
+          "Nome": "Águas Belas",
+          "Uf": "PE"
+        },
+        {
+          "Id": 1472,
+          "Codigo": 2600609,
+          "Nome": "Alagoinha",
+          "Uf": "PE"
+        },
+        {
+          "Id": 1473,
+          "Codigo": 2600708,
+          "Nome": "Aliança",
+          "Uf": "PE"
+        },
+        {
+          "Id": 1474,
+          "Codigo": 2600807,
+          "Nome": "Altinho",
+          "Uf": "PE"
+        },
+        {
+          "Id": 1475,
+          "Codigo": 2600906,
+          "Nome": "Amaraji",
+          "Uf": "PE"
+        },
+        {
+          "Id": 1476,
+          "Codigo": 2601003,
+          "Nome": "Angelim",
+          "Uf": "PE"
+        }
+      ]
+    },
+    {
+      "Id": 18,
+      "CodigoUf": 22,
+      "Nome": "Piauí",
+      "Uf": "PI",
+      "Regiao": 2,
+      "Cidades": [
+        {
+          "Id": 668,
+          "Codigo": 2200053,
+          "Nome": "Acauã",
+          "Uf": "PI"
+        },
+        {
+          "Id": 669,
+          "Codigo": 2200103,
+          "Nome": "Agricolândia",
+          "Uf": "PI"
+        },
+        {
+          "Id": 670,
+          "Codigo": 2200202,
+          "Nome": "Água Branca",
+          "Uf": "PI"
+        },
+        {
+          "Id": 671,
+          "Codigo": 2200251,
+          "Nome": "Alagoinha do Piauí",
+          "Uf": "PI"
+        },
+        {
+          "Id": 672,
+          "Codigo": 2200277,
+          "Nome": "Alegrete do Piauí",
+          "Uf": "PI"
+        },
+        {
+          "Id": 673,
+          "Codigo": 2200301,
+          "Nome": "Alto Longá",
+          "Uf": "PI"
+        },
+        {
+          "Id": 674,
+          "Codigo": 2200400,
+          "Nome": "Altos",
+          "Uf": "PI"
+        },
+        {
+          "Id": 675,
+          "Codigo": 2200459,
+          "Nome": "Alvorada do Gurguéia",
+          "Uf": "PI"
+        },
+        {
+          "Id": 676,
+          "Codigo": 2200509,
+          "Nome": "Amarante",
+          "Uf": "PI"
+        },
+        {
+          "Id": 677,
+          "Codigo": 2200608,
+          "Nome": "Angical do Piauí",
+          "Uf": "PI"
+        },
+        {
+          "Id": 678,
+          "Codigo": 2200707,
+          "Nome": "Anísio de Abreu",
+          "Uf": "PI"
+        },
+        {
+          "Id": 668,
+          "Codigo": 2200053,
+          "Nome": "Acauã",
+          "Uf": "PI"
+        },
+        {
+          "Id": 669,
+          "Codigo": 2200103,
+          "Nome": "Agricolândia",
+          "Uf": "PI"
+        },
+        {
+          "Id": 670,
+          "Codigo": 2200202,
+          "Nome": "Água Branca",
+          "Uf": "PI"
+        },
+        {
+          "Id": 671,
+          "Codigo": 2200251,
+          "Nome": "Alagoinha do Piauí",
+          "Uf": "PI"
+        },
+        {
+          "Id": 672,
+          "Codigo": 2200277,
+          "Nome": "Alegrete do Piauí",
+          "Uf": "PI"
+        },
+        {
+          "Id": 673,
+          "Codigo": 2200301,
+          "Nome": "Alto Longá",
+          "Uf": "PI"
+        },
+        {
+          "Id": 674,
+          "Codigo": 2200400,
+          "Nome": "Altos",
+          "Uf": "PI"
+        },
+        {
+          "Id": 675,
+          "Codigo": 2200459,
+          "Nome": "Alvorada do Gurguéia",
+          "Uf": "PI"
+        },
+        {
+          "Id": 676,
+          "Codigo": 2200509,
+          "Nome": "Amarante",
+          "Uf": "PI"
+        },
+        {
+          "Id": 677,
+          "Codigo": 2200608,
+          "Nome": "Angical do Piauí",
+          "Uf": "PI"
+        },
+        {
+          "Id": 678,
+          "Codigo": 2200707,
+          "Nome": "Anísio de Abreu",
+          "Uf": "PI"
+        }
+      ]
+    },
+    {
+      "Id": 19,
+      "CodigoUf": 33,
+      "Nome": "Rio de Janeiro",
+      "Uf": "RJ",
+      "Regiao": 3,
+      "Cidades": [
+        {
+          "Id": 3176,
+          "Codigo": 3300100,
+          "Nome": "Angra dos Reis",
+          "Uf": "RJ"
+        },
+        {
+          "Id": 3177,
+          "Codigo": 3300159,
+          "Nome": "Aperibé",
+          "Uf": "RJ"
+        },
+        {
+          "Id": 3178,
+          "Codigo": 3300209,
+          "Nome": "Araruama",
+          "Uf": "RJ"
+        },
+        {
+          "Id": 3179,
+          "Codigo": 3300225,
+          "Nome": "Areal",
+          "Uf": "RJ"
+        },
+        {
+          "Id": 3180,
+          "Codigo": 3300233,
+          "Nome": "Armação dos Búzios",
+          "Uf": "RJ"
+        },
+        {
+          "Id": 3181,
+          "Codigo": 3300258,
+          "Nome": "Arraial do Cabo",
+          "Uf": "RJ"
+        },
+        {
+          "Id": 3182,
+          "Codigo": 3300308,
+          "Nome": "Barra do Piraí",
+          "Uf": "RJ"
+        },
+        {
+          "Id": 3183,
+          "Codigo": 3300407,
+          "Nome": "Barra Mansa",
+          "Uf": "RJ"
+        },
+        {
+          "Id": 3184,
+          "Codigo": 3300456,
+          "Nome": "Belford Roxo",
+          "Uf": "RJ"
+        },
+        {
+          "Id": 3185,
+          "Codigo": 3300506,
+          "Nome": "Bom Jardim",
+          "Uf": "RJ"
+        },
+        {
+          "Id": 3186,
+          "Codigo": 3300605,
+          "Nome": "Bom Jesus do Itabapoana",
+          "Uf": "RJ"
+        }
+      ]
+    },
+    {
+      "Id": 20,
+      "CodigoUf": 24,
+      "Nome": "Rio Grande do Norte",
+      "Uf": "RN",
+      "Regiao": 2,
+      "Cidades": [
+        {
+          "Id": 1076,
+          "Codigo": 2400109,
+          "Nome": "Acari",
+          "Uf": "RN"
+        },
+        {
+          "Id": 1077,
+          "Codigo": 2400208,
+          "Nome": "Açu",
+          "Uf": "RN"
+        },
+        {
+          "Id": 1078,
+          "Codigo": 2400307,
+          "Nome": "Afonso Bezerra",
+          "Uf": "RN"
+        },
+        {
+          "Id": 1079,
+          "Codigo": 2400406,
+          "Nome": "Água Nova",
+          "Uf": "RN"
+        },
+        {
+          "Id": 1080,
+          "Codigo": 2400505,
+          "Nome": "Alexandria",
+          "Uf": "RN"
+        },
+        {
+          "Id": 1081,
+          "Codigo": 2400604,
+          "Nome": "Almino Afonso",
+          "Uf": "RN"
+        },
+        {
+          "Id": 1082,
+          "Codigo": 2400703,
+          "Nome": "Alto do Rodrigues",
+          "Uf": "RN"
+        },
+        {
+          "Id": 1083,
+          "Codigo": 2400802,
+          "Nome": "Angicos",
+          "Uf": "RN"
+        },
+        {
+          "Id": 1084,
+          "Codigo": 2400901,
+          "Nome": "Antônio Martins",
+          "Uf": "RN"
+        },
+        {
+          "Id": 1085,
+          "Codigo": 2401008,
+          "Nome": "Apodi",
+          "Uf": "RN"
+        },
+        {
+          "Id": 1086,
+          "Codigo": 2401107,
+          "Nome": "Areia Branca",
+          "Uf": "RN"
+        }
+      ]
+    },
+    {
+      "Id": 21,
+      "CodigoUf": 43,
+      "Nome": "Rio Grande do Sul",
+      "Uf": "RS",
+      "Regiao": 4,
+      "Cidades": [
+        {
+          "Id": 4607,
+          "Codigo": 4300034,
+          "Nome": "Aceguá",
+          "Uf": "RS"
+        },
+        {
+          "Id": 4608,
+          "Codigo": 4300059,
+          "Nome": "Água Santa",
+          "Uf": "RS"
+        },
+        {
+          "Id": 4609,
+          "Codigo": 4300109,
+          "Nome": "Agudo",
+          "Uf": "RS"
+        },
+        {
+          "Id": 4610,
+          "Codigo": 4300208,
+          "Nome": "Ajuricaba",
+          "Uf": "RS"
+        },
+        {
+          "Id": 4611,
+          "Codigo": 4300307,
+          "Nome": "Alecrim",
+          "Uf": "RS"
+        },
+        {
+          "Id": 4612,
+          "Codigo": 4300406,
+          "Nome": "Alegrete",
+          "Uf": "RS"
+        },
+        {
+          "Id": 4613,
+          "Codigo": 4300455,
+          "Nome": "Alegria",
+          "Uf": "RS"
+        },
+        {
+          "Id": 4614,
+          "Codigo": 4300471,
+          "Nome": "Almirante Tamandaré do Sul",
+          "Uf": "RS"
+        },
+        {
+          "Id": 4615,
+          "Codigo": 4300505,
+          "Nome": "Alpestre",
+          "Uf": "RS"
+        },
+        {
+          "Id": 4616,
+          "Codigo": 4300554,
+          "Nome": "Alto Alegre",
+          "Uf": "RS"
+        },
+        {
+          "Id": 4617,
+          "Codigo": 4300570,
+          "Nome": "Alto Feliz",
+          "Uf": "RS"
+        },
+        {
+          "Id": 4607,
+          "Codigo": 4300034,
+          "Nome": "Aceguá",
+          "Uf": "RS"
+        },
+        {
+          "Id": 4608,
+          "Codigo": 4300059,
+          "Nome": "Água Santa",
+          "Uf": "RS"
+        },
+        {
+          "Id": 4609,
+          "Codigo": 4300109,
+          "Nome": "Agudo",
+          "Uf": "RS"
+        },
+        {
+          "Id": 4610,
+          "Codigo": 4300208,
+          "Nome": "Ajuricaba",
+          "Uf": "RS"
+        },
+        {
+          "Id": 4611,
+          "Codigo": 4300307,
+          "Nome": "Alecrim",
+          "Uf": "RS"
+        },
+        {
+          "Id": 4612,
+          "Codigo": 4300406,
+          "Nome": "Alegrete",
+          "Uf": "RS"
+        },
+        {
+          "Id": 4613,
+          "Codigo": 4300455,
+          "Nome": "Alegria",
+          "Uf": "RS"
+        },
+        {
+          "Id": 4614,
+          "Codigo": 4300471,
+          "Nome": "Almirante Tamandaré do Sul",
+          "Uf": "RS"
+        },
+        {
+          "Id": 4615,
+          "Codigo": 4300505,
+          "Nome": "Alpestre",
+          "Uf": "RS"
+        },
+        {
+          "Id": 4616,
+          "Codigo": 4300554,
+          "Nome": "Alto Alegre",
+          "Uf": "RS"
+        },
+        {
+          "Id": 4617,
+          "Codigo": 4300570,
+          "Nome": "Alto Feliz",
+          "Uf": "RS"
+        }
+      ]
+    },
+    {
+      "Id": 22,
+      "CodigoUf": 11,
+      "Nome": "Rondônia",
+      "Uf": "RO",
+      "Regiao": 1,
+      "Cidades": [
         {
             "Id": 1,
-            "CodigoUf": 12,
-            "Nome": "Acre",
-            "Uf": "AC",
-            "Regiao": 1
+            "Codigo": 1100015,
+            "Nome": "Alta Floresta D'Oeste",
+            "Uf": "RO"
         },
         {
             "Id": 2,
-            "CodigoUf": 27,
-            "Nome": "Alagoas",
-            "Uf": "AL",
-            "Regiao": 2
+            "Codigo": 1100023,
+            "Nome": "Ariquemes",
+            "Uf": "RO"
         },
         {
             "Id": 3,
-            "CodigoUf": 16,
-            "Nome": "Amapá",
-            "Uf": "AP",
-            "Regiao": 1
+            "Codigo": 1100031,
+            "Nome": "Cabixi",
+            "Uf": "RO"
         },
         {
             "Id": 4,
-            "CodigoUf": 13,
-            "Nome": "Amazonas",
-            "Uf": "AM",
-            "Regiao": 1
+            "Codigo": 1100049,
+            "Nome": "Cacoal",
+            "Uf": "RO"
         },
         {
             "Id": 5,
-            "CodigoUf": 29,
-            "Nome": "Bahia",
-            "Uf": "BA",
-            "Regiao": 2
+            "Codigo": 1100056,
+            "Nome": "Cerejeiras",
+            "Uf": "RO"
         },
         {
             "Id": 6,
-            "CodigoUf": 23,
-            "Nome": "Ceará",
-            "Uf": "CE",
-            "Regiao": 2
+            "Codigo": 1100064,
+            "Nome": "Colorado do Oeste",
+            "Uf": "RO"
         },
         {
             "Id": 7,
-            "CodigoUf": 53,
-            "Nome": "Distrito Federal",
-            "Uf": "DF",
-            "Regiao": 5
+            "Codigo": 1100072,
+            "Nome": "Corumbiara",
+            "Uf": "RO"
         },
         {
             "Id": 8,
-            "CodigoUf": 32,
-            "Nome": "Espírito Santo",
-            "Uf": "ES",
-            "Regiao": 3
+            "Codigo": 1100080,
+            "Nome": "Costa Marques",
+            "Uf": "RO"
         },
         {
             "Id": 9,
-            "CodigoUf": 52,
-            "Nome": "Goiás",
-            "Uf": "GO",
-            "Regiao": 5
+            "Codigo": 1100098,
+            "Nome": "Espigão D'Oeste",
+            "Uf": "RO"
         },
         {
             "Id": 10,
-            "CodigoUf": 21,
-            "Nome": "Maranhão",
-            "Uf": "MA",
-            "Regiao": 2
+            "Codigo": 1100106,
+            "Nome": "Guajará-Mirim",
+            "Uf": "RO"
+        } 
+      ]
+    },
+    {
+      "Id": 23,
+      "CodigoUf": 14,
+      "Nome": "Roraima",
+      "Uf": "RR",
+      "Regiao": 1,
+      "Cidades": [
+        {
+            "Id": 140,
+            "Codigo": 1400159,
+            "Nome": "Bonfim",
+            "Uf": "RR"
         },
         {
-            "Id": 11,
-            "CodigoUf": 51,
-            "Nome": "Mato Grosso",
-            "Uf": "MT",
-            "Regiao": 5
+            "Id": 141,
+            "Codigo": 1400175,
+            "Nome": "Cantá",
+            "Uf": "RR"
         },
         {
-            "Id": 12,
-            "CodigoUf": 50,
-            "Nome": "Mato Grosso do Sul",
-            "Uf": "MS",
-            "Regiao": 5
+            "Id": 142,
+            "Codigo": 1400209,
+            "Nome": "Caracaraí",
+            "Uf": "RR"
         },
         {
-            "Id": 13,
-            "CodigoUf": 31,
-            "Nome": "Minas Gerais",
-            "Uf": "MG",
-            "Regiao": 3
+            "Id": 143,
+            "Codigo": 1400233,
+            "Nome": "Caroebe",
+            "Uf": "RR"
         },
         {
-            "Id": 14,
-            "CodigoUf": 15,
-            "Nome": "Pará",
-            "Uf": "PA",
-            "Regiao": 1
+            "Id": 144,
+            "Codigo": 1400282,
+            "Nome": "Iracema",
+            "Uf": "RR"
         },
         {
-            "Id": 15,
-            "CodigoUf": 25,
-            "Nome": "Paraíba",
-            "Uf": "PB",
-            "Regiao": 2
+            "Id": 145,
+            "Codigo": 1400308,
+            "Nome": "Mucajaí",
+            "Uf": "RR"
         },
         {
-            "Id": 16,
-            "CodigoUf": 41,
-            "Nome": "Paraná",
-            "Uf": "PR",
-            "Regiao": 4
+            "Id": 146,
+            "Codigo": 1400407,
+            "Nome": "Normandia",
+            "Uf": "RR"
         },
         {
-            "Id": 17,
-            "CodigoUf": 26,
-            "Nome": "Pernambuco",
-            "Uf": "PE",
-            "Regiao": 2
+            "Id": 147,
+            "Codigo": 1400456,
+            "Nome": "Pacaraima",
+            "Uf": "RR"
         },
         {
-            "Id": 18,
-            "CodigoUf": 22,
-            "Nome": "Piauí",
-            "Uf": "PI",
-            "Regiao": 2
+            "Id": 148,
+            "Codigo": 1400472,
+            "Nome": "Rorainópolis",
+            "Uf": "RR"
         },
         {
-            "Id": 19,
-            "CodigoUf": 33,
-            "Nome": "Rio de Janeiro",
-            "Uf": "RJ",
-            "Regiao": 3
+            "Id": 149,
+            "Codigo": 1400506,
+            "Nome": "São João da Baliza",
+            "Uf": "RR"
         },
         {
-            "Id": 20,
-            "CodigoUf": 24,
-            "Nome": "Rio Grande do Norte",
-            "Uf": "RN",
-            "Regiao": 2
-        },
-        {
-            "Id": 21,
-            "CodigoUf": 43,
-            "Nome": "Rio Grande do Sul",
-            "Uf": "RS",
-            "Regiao": 4
-        },
-        {
-            "Id": 22,
-            "CodigoUf": 11,
-            "Nome": "Rondônia",
-            "Uf": "RO",
-            "Regiao": 1
-        },
-        {
-            "Id": 23,
-            "CodigoUf": 14,
-            "Nome": "Roraima",
-            "Uf": "RR",
-            "Regiao": 1
-        },
-        {
-            "Id": 24,
-            "CodigoUf": 42,
-            "Nome": "Santa Catarina",
-            "Uf": "SC",
-            "Regiao": 4
-        },
-        {
-            "Id": 25,
-            "CodigoUf": 35,
-            "Nome": "São Paulo",
-            "Uf": "SP",
-            "Regiao": 3
-        },
-        {
-            "Id": 26,
-            "CodigoUf": 28,
-            "Nome": "Sergipe",
-            "Uf": "SE",
-            "Regiao": 2
-        },
-        {
-            "Id": 27,
-            "CodigoUf": 17,
-            "Nome": "Tocantins",
-            "Uf": "TO",
-            "Regiao": 1
+            "Id": 150,
+            "Codigo": 1400605,
+            "Nome": "São Luiz",
+            "Uf": "RR"
         }
-    ]
+      ]
+    },
+    {
+      "Id": 24,
+      "CodigoUf": 42,
+      "Nome": "Santa Catarina",
+      "Uf": "SC",
+      "Regiao": 4,
+      "Cidades": [
+        {
+            "Id": 4312,
+            "Codigo": 4200051,
+            "Nome": "Abdon Batista",
+            "Uf": "SC"
+        },
+        {
+            "Id": 4313,
+            "Codigo": 4200101,
+            "Nome": "Abelardo Luz",
+            "Uf": "SC"
+        },
+        {
+            "Id": 4314,
+            "Codigo": 4200200,
+            "Nome": "Agrolândia",
+            "Uf": "SC"
+        },
+        {
+            "Id": 4315,
+            "Codigo": 4200309,
+            "Nome": "Agronômica",
+            "Uf": "SC"
+        },
+        {
+            "Id": 4316,
+            "Codigo": 4200408,
+            "Nome": "Água Doce",
+            "Uf": "SC"
+        },
+        {
+            "Id": 4317,
+            "Codigo": 4200507,
+            "Nome": "Águas de Chapecó",
+            "Uf": "SC"
+        },
+        {
+            "Id": 4318,
+            "Codigo": 4200556,
+            "Nome": "Águas Frias",
+            "Uf": "SC"
+        },
+        {
+            "Id": 4319,
+            "Codigo": 4200606,
+            "Nome": "Águas Mornas",
+            "Uf": "SC"
+        },
+        {
+            "Id": 4320,
+            "Codigo": 4200705,
+            "Nome": "Alfredo Wagner",
+            "Uf": "SC"
+        },
+        {
+            "Id": 4321,
+            "Codigo": 4200754,
+            "Nome": "Alto Bela Vista",
+            "Uf": "SC"
+        },
+        {
+            "Id": 4322,
+            "Codigo": 4200804,
+            "Nome": "Anchieta",
+            "Uf": "SC"
+        },{
+            "Id": 4312,
+            "Codigo": 4200051,
+            "Nome": "Abdon Batista",
+            "Uf": "SC"
+        },
+        {
+            "Id": 4313,
+            "Codigo": 4200101,
+            "Nome": "Abelardo Luz",
+            "Uf": "SC"
+        },
+        {
+            "Id": 4314,
+            "Codigo": 4200200,
+            "Nome": "Agrolândia",
+            "Uf": "SC"
+        },
+        {
+            "Id": 4315,
+            "Codigo": 4200309,
+            "Nome": "Agronômica",
+            "Uf": "SC"
+        },
+        {
+            "Id": 4316,
+            "Codigo": 4200408,
+            "Nome": "Água Doce",
+            "Uf": "SC"
+        },
+        {
+            "Id": 4317,
+            "Codigo": 4200507,
+            "Nome": "Águas de Chapecó",
+            "Uf": "SC"
+        },
+        {
+            "Id": 4318,
+            "Codigo": 4200556,
+            "Nome": "Águas Frias",
+            "Uf": "SC"
+        },
+        {
+            "Id": 4319,
+            "Codigo": 4200606,
+            "Nome": "Águas Mornas",
+            "Uf": "SC"
+        },
+        {
+            "Id": 4320,
+            "Codigo": 4200705,
+            "Nome": "Alfredo Wagner",
+            "Uf": "SC"
+        },
+        {
+            "Id": 4321,
+            "Codigo": 4200754,
+            "Nome": "Alto Bela Vista",
+            "Uf": "SC"
+        },
+        {
+            "Id": 4322,
+            "Codigo": 4200804,
+            "Nome": "Anchieta",
+            "Uf": "SC"
+        }
+      ]
+    },
+    {
+      "Id": 25,
+      "CodigoUf": 35,
+      "Nome": "São Paulo",
+      "Uf": "SP",
+      "Regiao": 3,
+      "Cidades": [
+        {
+            "Id": 3268,
+            "Codigo": 3500105,
+            "Nome": "Adamantina",
+            "Uf": "SP"
+        },
+        {
+            "Id": 3269,
+            "Codigo": 3500204,
+            "Nome": "Adolfo",
+            "Uf": "SP"
+        },
+        {
+            "Id": 3270,
+            "Codigo": 3500303,
+            "Nome": "Aguaí",
+            "Uf": "SP"
+        },
+        {
+            "Id": 3271,
+            "Codigo": 3500402,
+            "Nome": "Águas da Prata",
+            "Uf": "SP"
+        },
+        {
+            "Id": 3272,
+            "Codigo": 3500501,
+            "Nome": "Águas de Lindóia",
+            "Uf": "SP"
+        },
+        {
+            "Id": 3273,
+            "Codigo": 3500550,
+            "Nome": "Águas de Santa Bárbara",
+            "Uf": "SP"
+        },
+        {
+            "Id": 3274,
+            "Codigo": 3500600,
+            "Nome": "Águas de São Pedro",
+            "Uf": "SP"
+        },
+        {
+            "Id": 3275,
+            "Codigo": 3500709,
+            "Nome": "Agudos",
+            "Uf": "SP"
+        },
+        {
+            "Id": 3276,
+            "Codigo": 3500758,
+            "Nome": "Alambari",
+            "Uf": "SP"
+        },
+        {
+            "Id": 3277,
+            "Codigo": 3500808,
+            "Nome": "Alfredo Marcondes",
+            "Uf": "SP"
+        },
+        {
+            "Id": 3278,
+            "Codigo": 3500907,
+            "Nome": "Altair",
+            "Uf": "SP"
+        }
+      ]
+    },
+    {
+      "Id": 26,
+      "CodigoUf": 28,
+      "Nome": "Sergipe",
+      "Uf": "SE",
+      "Regiao": 2,
+      "Cidades": [
+        {
+            "Id": 1753,
+            "Codigo": 2800100,
+            "Nome": "Amparo de São Francisco",
+            "Uf": "SE"
+        },
+        {
+            "Id": 1754,
+            "Codigo": 2800209,
+            "Nome": "Aquidabã",
+            "Uf": "SE"
+        },
+        {
+            "Id": 1755,
+            "Codigo": 2800308,
+            "Nome": "Aracaju",
+            "Uf": "SE"
+        },
+        {
+            "Id": 1756,
+            "Codigo": 2800407,
+            "Nome": "Arauá",
+            "Uf": "SE"
+        },
+        {
+            "Id": 1757,
+            "Codigo": 2800506,
+            "Nome": "Areia Branca",
+            "Uf": "SE"
+        },
+        {
+            "Id": 1758,
+            "Codigo": 2800605,
+            "Nome": "Barra dos Coqueiros",
+            "Uf": "SE"
+        },
+        {
+            "Id": 1759,
+            "Codigo": 2800670,
+            "Nome": "Boquim",
+            "Uf": "SE"
+        },
+        {
+            "Id": 1760,
+            "Codigo": 2800704,
+            "Nome": "Brejo Grande",
+            "Uf": "SE"
+        },
+        {
+            "Id": 1761,
+            "Codigo": 2801009,
+            "Nome": "Campo do Brito",
+            "Uf": "SE"
+        },
+        {
+            "Id": 1762,
+            "Codigo": 2801108,
+            "Nome": "Canhoba",
+            "Uf": "SE"
+        },
+        {
+            "Id": 1763,
+            "Codigo": 2801207,
+            "Nome": "Canindé de São Francisco",
+            "Uf": "SE"
+        }
+      ]
+    },
+    {
+      "Id": 27,
+      "CodigoUf": 17,
+      "Nome": "Tocantins",
+      "Uf": "TO",
+      "Regiao": 1,
+      "Cidades": [
+        {
+            "Id": 312,
+            "Codigo": 1700251,
+            "Nome": "Abreulândia",
+            "Uf": "TO"
+        },
+        {
+            "Id": 313,
+            "Codigo": 1700301,
+            "Nome": "Aguiarnópolis",
+            "Uf": "TO"
+        },
+        {
+            "Id": 314,
+            "Codigo": 1700350,
+            "Nome": "Aliança do Tocantins",
+            "Uf": "TO"
+        },
+        {
+            "Id": 315,
+            "Codigo": 1700400,
+            "Nome": "Almas",
+            "Uf": "TO"
+        },
+        {
+            "Id": 316,
+            "Codigo": 1700707,
+            "Nome": "Alvorada",
+            "Uf": "TO"
+        },
+        {
+            "Id": 317,
+            "Codigo": 1701002,
+            "Nome": "Ananás",
+            "Uf": "TO"
+        },
+        {
+            "Id": 318,
+            "Codigo": 1701051,
+            "Nome": "Angico",
+            "Uf": "TO"
+        },
+        {
+            "Id": 319,
+            "Codigo": 1701101,
+            "Nome": "Aparecida do Rio Negro",
+            "Uf": "TO"
+        },
+        {
+            "Id": 320,
+            "Codigo": 1701309,
+            "Nome": "Aragominas",
+            "Uf": "TO"
+        },
+        {
+            "Id": 321,
+            "Codigo": 1701903,
+            "Nome": "Araguacema",
+            "Uf": "TO"
+        },
+        {
+            "Id": 322,
+            "Codigo": 1702000,
+            "Nome": "Araguaçu",
+            "Uf": "TO"
+        }
+      ]
+    }
+  ]
 }
