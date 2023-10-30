@@ -691,7 +691,7 @@ const rl = readline.createInterface({
 // Função para perguntar ao usuário se deseja inserir funcionários
 async function askUserForAction() {
   rl.question(
-    "Escolha uma opção:\n1. Inserir funcionários\n2. Deletar todos os registros e inserir funcionários\n",
+    "Escolha uma opção:\n1. Inserir funcionários\n2. Deletar todos os registros\n",
     async (answer) => {
       if (answer.toLowerCase() === "1") {
         await createConnectionAndExecute();
