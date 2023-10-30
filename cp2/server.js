@@ -419,7 +419,7 @@ async function insertLogradouro(connect) {
         });
         console.log(`Logradouro inserido: ${logradouro.id_logradouro}`);
       } catch (err) {
-        console.error(`Erro ao inserir logradouro: ${err.message}`);
+        console.error();
       }
     }
     console.log("Inserções de logradouros concluídas.");
@@ -714,7 +714,7 @@ const batchSize = 1000; // Defina o tamanho do lote aqui
 
 // deleteAllFromTable()
 // getState()
-console.log(askUserForAction())
+askUserForAction()
 // console.log(getCities().length)
 // console.log(generateBairrosForCities().length)
 // console.log(generateLogradourosForBairros().length)
